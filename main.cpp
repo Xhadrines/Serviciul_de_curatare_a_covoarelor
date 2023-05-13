@@ -37,11 +37,11 @@ int main()
 	int camereMici {0};
 	int camereMari {0};
 	const double  pretCamereMici{25.0};
-    const double  pretCamereMari {35.0};
+    	const double  pretCamereMari {35.0};
 	const double taxa {0.06};
-    const int estimare {30};
+    	const int estimare {30};
 	
-    cout << "Bun venit la Serviciul de curatare a covoarelor Frank!" << endl;
+    	cout << "Bun venit la Serviciul de curatare a covoarelor Frank!" << endl;
 	
 	cout << endl;
     
@@ -55,26 +55,26 @@ int main()
 	
 	cout << endl;
     
-    cout << "Estimare pentru serviciul de curățare a covoarelor:" << endl;
+   	cout << "Estimare pentru serviciul de curățare a covoarelor:" << endl;
     
 	cout << "\tNumarul de camere mici: " << camereMici << endl;
     
 	cout << "\tNumarul de camere mari: " << camereMari << endl;
     
-    cout << "\tPretul pe camere mici: $" << pretCamereMici << endl;
+    	cout << "\tPretul pe camere mici: $" << pretCamereMici << endl;
     
 	cout << "\tPretul pe camere mari: $" << pretCamereMari << endl;
     
-    cout << "\tSuma fara taxa : $" << ( pretCamereMici * camereMici ) + ( pretCamereMari * camereMari ) << endl;
+    	cout << "\tSuma fara taxa : $" << ( pretCamereMici * camereMici ) + ( pretCamereMari * camereMari ) << endl;
             
-    cout << "\tTaxa: $" << ( ( pretCamereMici * camereMici ) + ( pretCamereMari * camereMari ) ) * taxa << endl;
+    	cout << "\tTaxa: $" << ( ( pretCamereMici * camereMici ) + ( pretCamereMari * camereMari ) ) * taxa << endl;
             
-    cout << endl;
+    	cout << endl;
     
 	cout << "Suma cu taxa: $" << ( ( pretCamereMici * camereMici ) + ( pretCamereMari * camereMari ) ) + ( ( ( pretCamereMici * camereMici ) + ( pretCamereMari * camereMari ) ) * taxa ) << endl;
     
 	cout << "Aceasta estimare este valabila pentru " << estimare << " zile" << endl;
 	
-    return 0;
+    	return 0;
 }
 
