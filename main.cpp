@@ -41,7 +41,7 @@ int main()
 	const double taxa {0.06};
     const int estimare {30};
 	
-    cout << "Bun venit la Serviciul de curățare a covoarelor Frank!" << endl;
+    cout << "Bun venit la Serviciul de curatare a covoarelor Frank!" << endl;
 	
 	cout << endl;
     
